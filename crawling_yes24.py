@@ -34,5 +34,5 @@ def extract_book_data(soup):
 
         content = f"<a href={url}>" + book_name + "</a>" + ", " + price + "<br/>\n"
         upload_contents += content
-
+        
     return upload_contents
